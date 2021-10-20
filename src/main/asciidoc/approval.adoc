@@ -1,0 +1,20 @@
+= RESTful Notes API Guide
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectlinks:
+:sectanchors:
+
+[[api]]
+== login Api
+
+
+include::{snippets}/loginUser/curl-request.adoc[]
+include::{snippets}/loginUser/http-request.adoc[]
+include::{snippets}/loginUser/http-response.adoc[]
+include::{snippets}/loginUser/request-body.adoc[]
+include::{snippets}/loginUser/request-fields.adoc[]
+include::{snippets}/loginUser/response-fields.adoc[]

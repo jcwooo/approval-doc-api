@@ -1,0 +1,50 @@
+unKnown:
+  code: "-9999"
+  msg: "An unknown error has occurred."
+userNotFound:
+  code: "-1000"
+  msg: "This is a non-existent member."
+
+userLoginFailure:
+  code: "-1001"
+  msg: "Either the ID does not exist or the password is incorrect."
+userIdExist:
+  code: "-1002"
+  msg: "That ID already exists."
+userIdIsNotExist:
+  code: "-1003"
+  msg: "The user ID does not exist."
+documentIdIsNotExist:
+  code: "-1004"
+  msg: "The payment document ID does not exist."
+signDataIsExist:
+  code: "-1005"
+  msg: "This is duplicate payment information."
+signUserExist:
+  code: "-1006"
+  msg: "You are already a registered approver."
+signNoExist:
+  code: "-1007"
+  msg: "이미 등록 된 결재순번입니다."
+documentExpired:
+  code: "-1008"
+  msg: "This is an already registered payment order number."
+signNoIsNotUserTurn:
+  code: "-1009"
+  msg: "It's not your turn to settle."
+signUserNotExist:
+  code: "-1010"
+  msg: "Approval document This is an approval document in which the registrant does not register an approver."
+notSignUser:
+  code: "-1011"
+  msg: "I am not a document approver."
+signDataIsNotExist:
+  code: "-1012"
+  msg: "There is no payment information."
+
+
+resourceNotExist:
+  code: "404"
+  msg: "The resource does not exist."
+
+

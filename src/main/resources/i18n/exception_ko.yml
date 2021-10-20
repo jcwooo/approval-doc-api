@@ -1,0 +1,50 @@
+unKnown:
+  code: "-9999"
+  msg: "알수없는 오류가 발생하였습니다."
+userNotFound:
+  code: "-1000"
+  msg: "존재하지 않는 회원입니다."
+
+userLoginFailure:
+  code: "-1001"
+  msg: "존재하지 않는 ID이거나 잘못된 비밀번호입니다."
+userIdExist:
+  code: "-1002"
+  msg: "해당 ID가 이미 존재합니다."
+userIdIsNotExist:
+  code: "-1003"
+  msg: "해당 유저 ID가 존재하지 않습니다."
+documentIdIsNotExist:
+  code: "-1004"
+  msg: "결재 문서 ID가 존재하지 않습니다."
+signDataIsExist:
+  code: "-1005"
+  msg: "중복 된 결재 정보입니다."
+signUserExist:
+  code: "-1006"
+  msg: "이미 등록 된 결재자입니다."
+signNoExist:
+  code: "-1007"
+  msg: "이미 등록 된 결재순번입니다."
+documentExpired:
+  code: "-1008"
+  msg: "이미 만료된 결재문서입니다."
+signNoIsNotUserTurn:
+  code: "-1009"
+  msg: "결재 차례가 아닙니다."
+signUserNotExist:
+  code: "-1010"
+  msg: "결재문서 등록자가 결재자를 등록하지 않은 결재문서입니다."
+notSignUser:
+  code: "-1011"
+  msg: "결재문서 결재자가 아닙니다."
+signDataIsNotExist:
+  code: "-1012"
+  msg: "결재정보가 없습니다."
+
+
+resourceNotExist:
+  code: "404"
+  msg: "해당 리소스가 존재하지 않습니다."
+
+
