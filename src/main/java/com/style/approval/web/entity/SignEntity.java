@@ -20,12 +20,12 @@ import javax.persistence.*;
 public class SignEntity extends CommonEntity {
 
     @MapsId("documentId")
-    @ManyToOne
+    @ManyToOne(fetch=FetchType.LAZY)
     @JoinColumn(name="DOC_ID")
     private DocumentEntity document;
 
     @MapsId("userId")
-    @ManyToOne
+    @ManyToOne(fetch=FetchType.LAZY)
     @JoinColumn(name="USER_ID")
     private UserEntity user;
 

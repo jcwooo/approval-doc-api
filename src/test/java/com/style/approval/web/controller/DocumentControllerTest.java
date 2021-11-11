@@ -46,7 +46,7 @@ class DocumentControllerTest {
         ResultActions resultActions = mockMvc.perform(RestDocumentationRequestBuilders
                 .post("/api/createDocument")
                 .header("Content-Type", "application/json")
-                .content("{\"title\":\"과제 전형 결재\", \"type\":\"긴급\", \"contents\":\"과제 전형 테스트 합격\", \"writerId\":\"No5\"}"))
+                .content("{\"title\":\"긴급 결재\", \"type\":\"긴급\", \"contents\":\"긴급합니다.\", \"writerId\":\"No5\"}"))
                 .andDo(MockMvcResultHandlers.print());
 
         //then

@@ -40,7 +40,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureRestDocs
 class UserControllerTest {
     @Autowired
-    private MockMvc mockMvc;
+    private MockMvc mockMvc; //MockMvc : 가상의 클라이언트. 어플리케이션에 요청을 날리는 역할.
 
     @Autowired
     private UserService userService;
