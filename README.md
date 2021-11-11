@@ -71,7 +71,7 @@ ApprovalApplication.java main 실행
     "success": true,
     "response":{
         "docId": 3,
-        "title": "긴급 결재 문서",
+        "title": "긴급 결재 문서 ",
         "type": "긴급",
         "contents": "긴급입니다",
         "writerId": "No1",
